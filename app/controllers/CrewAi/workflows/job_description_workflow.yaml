@@ -1,0 +1,10 @@
+agents:
+  - "detail_collection_agent"
+  - "jd_generation_agent"
+
+tasks:
+  - "collect_details_task"
+  - "generate_jd_task"
+
+process: sequential
+verbose: true

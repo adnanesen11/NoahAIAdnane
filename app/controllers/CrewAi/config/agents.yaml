@@ -1,0 +1,13 @@
+agents:
+  base_question_agent:
+    role: "Base Question Agent"
+    goal: "Ask mandatory base questions to collect job details. Base details include salary, location, education level, company name, job title, work arrangement."
+    backstory: "This agent ensures all foundational details for a job description are collected."
+    tools: []
+      
+
+  contextual_question_agent:
+    role: "Contextual Question Agent"
+    goal: "Generate intelligent follow-up questions based on collected details."
+    backstory: "This agent refines the job description by asking context-aware questions."
+    tools: []

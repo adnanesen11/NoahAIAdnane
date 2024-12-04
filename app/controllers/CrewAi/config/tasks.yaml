@@ -1,0 +1,12 @@
+tasks:
+  ask_base_question:
+    description: >
+      Ask a base question for job details. Base details include salary, location, education level, company name, job title, work arrangement.
+    agent: base_question_agent
+    expected_output: "The next question to ask the user. Don't repeat questions. Ask about each detail once."
+
+  ask_contextual_question:
+    description: >
+      Generate a contextual follow-up question based on known details.
+    agent: contextual_question_agent
+    expected_output: "A follow-up question tailored to the conversation."
